@@ -1,5 +1,12 @@
 # WorkBuddy Token 监测
 
+<p align="center">
+  <img alt="Release" src="https://img.shields.io/github/v/release/CCPAST/token-monitor?label=release">
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-blue.svg">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3-3776AB.svg?logo=python&logoColor=white">
+  <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows-lightgrey.svg">
+</p>
+
 对 **WorkBuddy / Qoder / Codex / Claude / CodeBuddy** 等桌面 AI 应用的模型流量做**只读**监测：**上下行 tokens/秒**、输入 / 输出 tokens、缓存命中、积分消耗、上下文占用。
 设计参考 [ccusage](https://ccusage.com) 的燃烧率与状态条语义、[splitrail](https://github.com/Piebald-AI/splitrail) 的环比 / 堆叠趋势 / 可筛选明细结构。
 
