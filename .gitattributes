@@ -1,0 +1,12 @@
+# 仓库内与检出一律使用 LF，脚本入口保持 CRLF，保证跨平台确定性
+* text=auto eol=lf
+
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.gif binary
